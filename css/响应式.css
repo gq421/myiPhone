@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2018-08-10 11:54:01
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-09-15 17:05:58
+* @Last Modified time: 2018-09-18 18:17:01
 */
 *{
 		margin: 0;
@@ -49,7 +49,7 @@
 	}
 	.four3{
 		transform: rotate(-45deg);
-		margin-top:-6px;
+		margin-top:-7px;
 	}
 	.iphoneX{
 		width: 100%;
@@ -133,7 +133,6 @@
 		height: 605px;
 		border: 12px solid #fff;
 		float: left;
-		background: red;
 		background-image: url('../imges/iphone_x_a11_large.jpg');
 		background-size: cover;
 		background-position: center;
@@ -456,7 +455,6 @@
 			height: 508px;
 			border: 12px solid #fff;
 			float: left;
-			background: red;
 			background-image: url('../imges/iphone_x_a11_large.jpg');
 			background-size: cover;
 			background-position: center;
@@ -646,8 +644,11 @@
 	padding: 6px 30px;
 	width: 100%;
 	font-size: 11px;
-	font-weight: 400;
+	
 	color: #999;
+}
+.footer2 .content ul li .content-two h3{
+	font-weight: 400;
 }
 .footer2 .content ul li .content-down{
 	display: none;
